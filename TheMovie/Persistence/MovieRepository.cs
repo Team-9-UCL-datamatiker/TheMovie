@@ -5,16 +5,17 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TheMovies.Model;
 
-namespace TheMovies
+namespace TheMovies.Persistence
 {
     public class MovieRepository
     {
-        public ObservableCollection<Movie> Movies;
+        public ObservableCollection<Movie> Movies { get; set; }
+
         public MovieRepository()
         {
             Movies = new ObservableCollection<Movie>();
-            //Movies.Add(new Movie("one", "2", "three"));
         }
 
         public void AddMovie(Movie movie)
