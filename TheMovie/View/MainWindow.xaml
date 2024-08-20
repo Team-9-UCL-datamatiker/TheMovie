@@ -23,6 +23,14 @@
         <Label Content="Titel" HorizontalAlignment="Left" Margin="307,114,0,0" VerticalAlignment="Top"/>
         <Label Content="Varighed" HorizontalAlignment="Left" Margin="307,170,0,0" VerticalAlignment="Top"/>
         <Label Content="Genre" HorizontalAlignment="Left" Margin="307,232,0,0" VerticalAlignment="Top"/>
+        <TabControl>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
 
     </Grid>
 </Window>
